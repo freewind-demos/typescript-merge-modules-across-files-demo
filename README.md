@@ -1,9 +1,9 @@
-TypeScript Merge Namespaces Across Files Demo
+TypeScript Merge Modules Across Files Demo
 ===========================
 
-关键点是 `namespace` 前不能加 `export`，否则会被当成一个 `module`而不再是namaspace\
+关键点是 `module` 前不能加 `export`，它就会被当成一个 namespace 而不是 module
 
-然后直接 `import './ns1'` 这样把多个namespace文件导入即可使用
+然后直接 `import './ns1'` 这样把多个module文件导入即可使用
 
 ```
 npm install

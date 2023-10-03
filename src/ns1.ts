@@ -1,5 +1,5 @@
-// NOTE We should NOT add the 'export' before namespace, which will make it a module not a namespace
-namespace My.Ns {
+// NOTE We should NOT add the 'export' before 'module', which will make it a real module rather than a namespace
+module My.Ns {
     export type User = {
         name: string,
         age: number
